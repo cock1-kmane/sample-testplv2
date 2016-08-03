@@ -51,7 +51,7 @@ resources:
         
   - name: sampletest-cluster
     type: cluster
-    integration: varshaarun-ecs
+    integration: plv2-ecs
     pointer:
       sourceName : "testCL"
       region: "us-west-2"
