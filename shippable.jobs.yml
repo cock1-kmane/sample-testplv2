@@ -11,7 +11,7 @@ jobs:
     type: manifest
     steps:
       - IN: sampletest-image1
-        versionNumber: 6
+       # versionNumber: 6
       - TASK: managed
       - IN: triggertestsample1
       
@@ -20,5 +20,5 @@ jobs:
     steps:
       - IN: sampletest-manifest
       - IN: sampletest-cluster
-      - TASK: managed
+      #- TASK: managed
         #deployMethod: upgrade
