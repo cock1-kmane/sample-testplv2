@@ -14,6 +14,8 @@ jobs:
         versionNumber: 6
       - TASK: managed
       - IN: triggertestsample1
+    flags:
+      - sampletest-manifest
       
   - name: sampletest-ecsdeploy
     type: deploy
