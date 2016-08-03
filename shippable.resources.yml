@@ -30,7 +30,7 @@ resources:
       
   - name: sampletest-image4
     type: image
-    integration: cock1-hubtest
+    integration: cock1-hub
     pointer:
       sourceName: "shiphitchcock1/betaci_nod_limitless_pl"
     seed:
